@@ -1,7 +1,5 @@
 package net.sunofbeach.blog.pojo;
 
-import java.io.Serializable;
-
 /**
  * @Author danny
  * @Date 2021/8/9 10:25 下午

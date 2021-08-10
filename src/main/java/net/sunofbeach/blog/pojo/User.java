@@ -16,7 +16,16 @@ public class User implements Serializable,Cloneable {
 
     @Id
     private String id;
-    private String user_name;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    private String username;
     private String password;
     private String avatar;
     private String email;
@@ -30,13 +39,7 @@ public class User implements Serializable,Cloneable {
         this.id = id;
     }
 
-    public String getUser_name() {
-        return user_name;
-    }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
-    }
 
     public String getPassword() {
         return password;
