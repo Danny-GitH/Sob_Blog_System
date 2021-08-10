@@ -38,7 +38,7 @@ public class TestController implements Serializable {
     public ResponeResult testLogin(@RequestBody User user) {
         System.out.println(user.getUsername());
         System.out.println(user.getPassword());
-        return ResponeResult.SUCCESS("登录成功！");
+        return ResponeResult.LOGIN_SUCCESS("登录成功！");
     }
 }
 

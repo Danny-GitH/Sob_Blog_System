@@ -22,7 +22,7 @@ public class ResponeResult {
     }
 
 //    # 重构一个登录成功接口返回
-    public static ResponeResult SUCCESS(String message) {
+    public static ResponeResult LOGIN_SUCCESS(String message) {
         ResponeResult responeResult = new ResponeResult(ResponseState.SUCCESS);
         responeResult.setMessage(message);
         return responeResult;

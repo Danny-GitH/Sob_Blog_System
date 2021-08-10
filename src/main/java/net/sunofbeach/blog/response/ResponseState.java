@@ -8,6 +8,7 @@ package net.sunofbeach.blog.response;
 public enum ResponseState {
 
     SUCCESS(true, 200, "请求成功"),
+    LOGIN_SUCCESS(true, 200, "登录成功"),
     FAILED(false, 400, "请求失败");
 
 
